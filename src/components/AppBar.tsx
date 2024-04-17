@@ -28,7 +28,6 @@ export default function AppBar() {
             ))}
           </div>
         </div>
-        <ModeToggle />
       </nav>
     </>
   );
