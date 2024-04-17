@@ -9,7 +9,7 @@ export default function AppBar() {
       <nav className="justify-centerpy-2 flex w-full select-none pt-6 md:px-28 md:pb-2">
         <div className="container flex flex-col items-center justify-between md:flex-row ">
           <div className="text-3xl font-semibold">
-            <a href="/">MK.</a>
+            <a href="/">MK .</a>
           </div>
           <div className="nav-links flex gap-x-8 text-lg md:text-lg ">
             {links.map((link) => (
