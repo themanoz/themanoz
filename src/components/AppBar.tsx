@@ -1,7 +1,6 @@
 import "@fontsource/montserrat"; 
 import "@fontsource/montserrat/400.css"; 
 import "@fontsource/montserrat/400-italic.css";
-import { ModeToggle } from "./mode-toggle";
 
 export default function AppBar() {
   const links = ["About", "Projects", "Skills", "Socials"];
