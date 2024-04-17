@@ -4,7 +4,7 @@ import { HoverBorderGradient } from "@/components/ui/hover-background";
 export default function Hero() {
   return (
     <section>
-      <div className="pt-40 flex justify-center text-center">
+      <div className="pt-44 flex justify-center text-center">
         <HoverBorderGradient
           containerClassName="rounded-full"
           as="button"
