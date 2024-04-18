@@ -6,8 +6,7 @@ import { ModeToggle } from "./mode-toggle";
 export default function AppBar() {
   const links = ["About", "Projects", "Skills", "Socials"];
   return (
-    <>
-      <nav className="justify-centerpy-2 flex w-full select-none pt-6 md:px-28 md:pb-2">
+      <nav className="justify-centerpy-2 flex w-full select-none pt-6 md:px-28 md:pb-2 top-0 sticky shadow-sm  backdrop-opacity-10">
         <div className="container flex flex-col items-center justify-between md:flex-row ">
           <div className="text-3xl font-semibold">
             <a href="/">MK .</a>
@@ -30,6 +29,5 @@ export default function AppBar() {
           <ModeToggle />
         </div>
       </nav>
-    </>
   );
 }
