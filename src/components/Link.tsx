@@ -1,7 +1,12 @@
 import { IconBrandGithub } from "@tabler/icons-react";
 import {  LinkIcon } from "lucide-react";
 
-export default function Link({githubUrl, Link}){
+interface LinkProps{
+    githubUrl : string;
+    Link: string;
+}
+
+export default function Link({githubUrl, Link} : LinkProps){
     return(
         <>
             <div className="flex gap-2">
