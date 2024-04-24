@@ -4,11 +4,11 @@ import "@fontsource/montserrat/400-italic.css";
 import { ModeToggle } from "./mode-toggle";
 
 export default function AppBar() {
-  const links = ["About", "Projects", "Skills", "Socials"];
+  const links = ["about", "projects", "skills", "socials"];
   return (
     <nav className="justify-center py-2 flex w-full select-none pt-6 md:px-28 md:pb-2 top-0 sticky shadow-sm bg-white dark:bg-black backdrop-grayscale">
       <div className="container flex flex-col items-center justify-between md:flex-row">
-        <div className="text-3xl font-semibold">
+        <div className="text-3xl font-semibold">  
           <a href="/">MK .</a>
         </div>
         <div className="nav-links flex gap-x-8 text-lg md:text-lg">
