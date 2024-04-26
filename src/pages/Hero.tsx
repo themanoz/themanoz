@@ -10,7 +10,7 @@ export default function Hero() {
           as="button"
           className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
         >
-          <a href="">
+          <a href="https://twitter.com/the_manoz" target="_blank">
             <span>Follow along on Twitter</span>
           </a>
         </HoverBorderGradient>
