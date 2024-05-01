@@ -1,12 +1,12 @@
 import "@fontsource/montserrat";
 import "@fontsource/montserrat/400.css";
 import "@fontsource/montserrat/400-italic.css";
-import { ModeToggle } from "./mode-toggle";
+// import { ModeToggle } from "./mode-toggle";
 
 export default function AppBar() {
   const links = ["about", "projects", "skills", "socials"];
   return (
-    <nav className="justify-center py-2 flex w-full select-none pt-6 md:px-28 md:pb-2 top-0 sticky shadow-sm bg-white dark:bg-black backdrop-grayscale">
+    <nav className="justify-center py-2 flex w-full select-none pt-6 md:px-28 md:pb-2 bg-white dark:bg-black">
       <div className="container flex flex-col items-center justify-between md:flex-row">
         <div className="text-3xl font-semibold">  
           <a href="/">MK .</a>
@@ -26,7 +26,7 @@ export default function AppBar() {
             </span>
           ))}
         </div>
-        <ModeToggle />
+        {/* <ModeToggle />  */}
       </div>
     </nav>
   );
