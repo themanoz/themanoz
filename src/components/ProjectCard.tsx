@@ -43,7 +43,7 @@ export default function ProjectCard() {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row justify-center">
-        <CardContainer className="dark:border dark:border-slate-200 rounded-lg shadow-lg dark:border-none">
+        <CardContainer className="border border-slate-200 rounded-lg shadow-lg">
           <div>
             <img
               src={portfolio}
