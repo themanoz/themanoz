@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section id="projects">
       <h1 className="text-center text-3xl">Projects</h1>
-      <ul className="flex flex-col items-center justify-center w-full">
+      <ul className="flex flex-col items-center justify-center w-full pl-5">
           {projectsContent.map((card, idx) => {
             return (
               <div key={idx}>
