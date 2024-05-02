@@ -27,15 +27,15 @@ const ProjectCard = ({
   link,
 }: ProjectCardProps) => {
   return (
-    <Card className="md:max-w-screen-xl md:mx-auto rounded-none bg-transparent border-none shadow-none grid grid-cols-1  lg:grid-cols-10 mt-8">
-      <div className="w-full h-full flex items-center justify-center mt-3 lg:col-span-4 ">
+    <Card className="md:max-w-screen-xl md:mx-auto rounded-none bg-transparent border-none shadow-none grid grid-cols-1 lg:grid-cols-10 mt-8 lg:px-36">
+      <div className="w-full h-full flex items-center justify-center mt-3 lg:col-span-4">
         <CardContainer>
         <img
           src={image.src}
           // width={500}
           // height={500}
           alt="Picture of the author"
-          className="border border-slate-400 rounded-lg  w-[300px] lg:w-[500px]"
+          className="border border-slate-400 rounded-lg  w-[300px] lg:w-[400px]"
         />
         </CardContainer>
       </div>
