@@ -91,7 +91,7 @@ export type projectData = {
           src: kite,
         },
         title: "Kite Connect Clone",
-        header: "Banking app",
+        header: "API app",
         description:
           "Kite Connect APIs to execute real orders, obtain live market data, manage portfolios and more. Make your platform market execution ready within minutes without the hassles of becoming a stock brokerage.",
         tags: [
