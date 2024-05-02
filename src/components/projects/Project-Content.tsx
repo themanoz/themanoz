@@ -93,7 +93,7 @@ export type projectData = {
         title: "Kite Connect Clone",
         header: "Banking app",
         description:
-          "SWIFT SPEND is a banking app which enables user to transfer money to other users. Backend involves RESTful APIs and custom token-based authentication for secure access control including the password hashing through bCrypt, sessions are used for making transactions for controlling multiple transfer requests on same account or in the case of server/database crash.",
+          "Kite Connect APIs to execute real orders, obtain live market data, manage portfolios and more. Make your platform market execution ready within minutes without the hassles of becoming a stock brokerage.",
         tags: [
           "Javascript",
           "Reactjs",

@@ -28,7 +28,7 @@ const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <Card className="md:max-w-screen-xl md:mx-auto rounded-none bg-transparent border-none shadow-none grid grid-cols-1  lg:grid-cols-10 mt-8">
-      <div className="w-full h-full flex items-start  lg:col-span-4">
+      <div className="w-full h-full flex items-start mt-3 lg:col-span-4">
         <CardContainer>
         <img
           src={image.src}
@@ -78,7 +78,7 @@ const ProjectCard = ({
           <div className="flex gap-3 flex-wrap">
             {tags.map((tag, index) => (
               <div
-                className="border rounded-full px-4 py-1 shadow-sm text-xs text-emerald-500"
+                className="border rounded-full px-4 py-1 shadow-sm text-xs text-stone-200"
                 key={index}
               >
                 {tag}
