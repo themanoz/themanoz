@@ -4,7 +4,7 @@ import "@fontsource/montserrat/400-italic.css";
 // import { ModeToggle } from "./mode-toggle";
 
 export default function AppBar() {
-  const links = ["about", "projects", "skills", "socials"];
+  const links = ["about", "projects", "skills"];
   return (
     <nav className="justify-center py-2 flex w-full select-none pt-6 md:px-28 md:pb-2 bg-white dark:bg-black">
       <div className="container flex flex-col items-center justify-between md:flex-row">
