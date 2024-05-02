@@ -15,7 +15,7 @@ export default function Hero() {
           </a>
         </HoverBorderGradient>
       </div>
-      <h1 className="pt-8 text-center text-4xl font-semibold">
+      <h1 className="pt-8 text-center text-2xl lg:text-4xl font-semibold">
         <MotionDiv delayOffset={0}>I'm Manoj Kumar Bonala 👋</MotionDiv>
       </h1>
       <h1 className="pt-4 text-xl font-medium ">
