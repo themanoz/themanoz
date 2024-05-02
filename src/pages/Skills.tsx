@@ -12,8 +12,6 @@ import nodejsIcon from "@/assets/icons/nodejs.png";
 import expressjsIcon from "@/assets/icons/express-js.png";
 import prismaIcon from "@/assets/icons/prisma.png";
 import mysqlIcon from "@/assets/icons/mysql.png";
-import macosIcon from "@/assets/icons/macos.png";
-import vscodeIcon from "@/assets/icons/vscode.png";
 import postmanIcon from "@/assets/icons/postman.svg";
 import { cn } from "@/lib/utils";
 
