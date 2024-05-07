@@ -2,6 +2,7 @@ import maroon from "@/assets/maroon.png";
 import portfolio from "@/assets/portfolio.png";
 import webopsify from "@/assets/webopsify.png";
 import kite from "@/assets/kite.png";
+import resolve from "@/assets/resolve.png";
 
 export type projectData = {
     image: {
@@ -102,6 +103,25 @@ export type projectData = {
           github: "https://github.com/themanoz/kite",
           youtube: "",
           live: "https://kite-clone-black.vercel.app/",
+        },
+      },
+      {
+        image: {
+          src: resolve,
+        },
+        title: "Resolve",
+        header: "Complaint Handling Management System",
+        description:
+          "Kite Connect APIs to execute real orders, obtain live market data, manage portfolios and more. Make your platform market execution ready within minutes without the hassles of becoming a stock brokerage.",
+        tags: [
+          "Nextjs",
+          "Tailwind CSS",
+          "Shadcn/ui",
+        ],
+        link: {
+          github: "https://github.com/themanoz/resolve",
+          youtube: "",
+          live: "https://resolve-one.vercel.app/",
         },
       },
   ];
