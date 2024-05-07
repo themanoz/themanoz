@@ -112,7 +112,7 @@ export type projectData = {
         title: "Resolve",
         header: "Complaint Handling Management System",
         description:
-          "Kite Connect APIs to execute real orders, obtain live market data, manage portfolios and more. Make your platform market execution ready within minutes without the hassles of becoming a stock brokerage.",
+          "Resolve is a complaint management system. It offers a user-friendly platform for tracking and ensuring timely resolutions, enhancing student satisfaction.",
         tags: [
           "Nextjs",
           "Tailwind CSS",
