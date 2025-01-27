@@ -1,8 +1,10 @@
 import maroon from "@/assets/maroon.png";
 import portfolio from "@/assets/portfolio.png";
-import webopsify from "@/assets/webopsify.png";
+// import webopsify from "@/assets/webopsify.png";
 import kite from "@/assets/kite.png";
 import resolve from "@/assets/resolve.png";
+import onparlefrench from "@/assets/onparlefrench.png"
+import craftyr from "@/assets/craftyr.png"
 
 export type projectData = {
     image: {
@@ -20,6 +22,68 @@ export type projectData = {
   };
   
   export const projectsContent: projectData[] = [
+    {
+      image: {
+        src: onparlefrench,
+      },
+      title: "onparlefrench",
+      header: "SaaS",
+      description:
+        "Built a platform for teachers to upload French language materials and students to access them securely by having subscription.",
+      tags: [
+        "Nextjs",
+        "Tailwind CSS",
+        "Shadcn/ui",
+        "PostgreSQL",
+        "Prisma",
+        "AWS S3",
+        "Redis",
+        "Clerk"
+      ],
+      link: {
+        github: "https://github.com/themanoz",
+        youtube: "",
+        live: "https://onparlefrench.site",
+      },
+    },
+    {
+      image: {
+        src: resolve,
+      },
+      title: "Resolve",
+      header: "Complaint Handling Management System",
+      description:
+        "Resolve is a complaint management system. It offers a user-friendly platform for tracking and ensuring timely resolutions, enhancing student satisfaction.",
+      tags: [
+        "Nextjs",
+        "Tailwind CSS",
+        "Shadcn/ui",
+      ],
+      link: {
+        github: "https://github.com/themanoz/resolve",
+        youtube: "",
+        live: "https://resolve-one.vercel.app/",
+      },
+    },
+    {
+      image: {
+        src: craftyr,
+      },
+      title: "craftyr",
+      header: "AI Resume Builder",
+      description:
+        "craftyr is resume builder, it tailors the resume based on the job description using AI.",
+      tags: [
+        "Nextjs",
+        "Tailwind CSS",
+        "Shadcn/ui",
+      ],
+      link: {
+        github: "https://github.com/themanoz/craftyr",
+        youtube: "",
+        live: "https://craftyr.vercel.app/",
+      },
+    },
     {
       image: {
         src: maroon,
@@ -62,31 +126,31 @@ export type projectData = {
         live: "https://themanoz.vercel.app/",
       },
     },
-    {
-        image: {
-          src: webopsify,
-        },
-        title: "WebOpsify",
-        header: "Blogging app",
-        description:
-          "WebOpsify is a blogging website which allows user to do CRUD operations on their blogs. Hono.js library of wrangler is used here for writing backend server which is hosted on cloudflare workers, connection-pooling is used for maintaining postgress requests.",
-        tags: [
-          "Javascript",
-          "Node.js",
-          "Hono.js",
-          "Prisma",
-          "PostgreSQL",
-          "JWT",
-          "bCrypt",
-          "Reactjs",
-          "TypeScript"
-        ],
-        link: {
-          github: "https://github.com/themanoz/medium-clone",
-          youtube: "",
-          live: "https://medium-clone-gules-tau.vercel.app/",
-        },
-      },
+    // {
+    //     image: {
+    //       src: webopsify,
+    //     },
+    //     title: "WebOpsify",
+    //     header: "Blogging app",
+    //     description:
+    //       "WebOpsify is a blogging website which allows user to do CRUD operations on their blogs. Hono.js library of wrangler is used here for writing backend server which is hosted on cloudflare workers, connection-pooling is used for maintaining postgress requests.",
+    //     tags: [
+    //       "Javascript",
+    //       "Node.js",
+    //       "Hono.js",
+    //       "Prisma",
+    //       "PostgreSQL",
+    //       "JWT",
+    //       "bCrypt",
+    //       "Reactjs",
+    //       "TypeScript"
+    //     ],
+    //     link: {
+    //       github: "https://github.com/themanoz/medium-clone",
+    //       youtube: "",
+    //       live: "https://medium-clone-gules-tau.vercel.app/",
+    //     },
+    //   },
       {
         image: {
           src: kite,
@@ -105,23 +169,5 @@ export type projectData = {
           live: "https://kite-clone-black.vercel.app/",
         },
       },
-      {
-        image: {
-          src: resolve,
-        },
-        title: "Resolve",
-        header: "Complaint Handling Management System",
-        description:
-          "Resolve is a complaint management system. It offers a user-friendly platform for tracking and ensuring timely resolutions, enhancing student satisfaction.",
-        tags: [
-          "Nextjs",
-          "Tailwind CSS",
-          "Shadcn/ui",
-        ],
-        link: {
-          github: "https://github.com/themanoz/resolve",
-          youtube: "",
-          live: "https://resolve-one.vercel.app/",
-        },
-      },
+      
   ];

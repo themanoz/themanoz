@@ -4,14 +4,14 @@ import reactIcon from "@/assets/icons/react.png";
 import nextjsIcon from "@/assets/icons/next-js.png";
 import typescriptIcon from "@/assets/icons/typescript.png";
 import javascriptIcon from "@/assets/icons/javascript.png";
-import javaIcon from "@/assets/icons/java.png";
+// import javaIcon from "@/assets/icons/java.png";
 import html5Icon from "@/assets/icons/html5.png";
 import tailwindcssIcon from "@/assets/icons/tailwindcss.png";
 import shadcnuiIcon from "@/assets/icons/shadcn-ui.png";
 import nodejsIcon from "@/assets/icons/nodejs.png";
 import expressjsIcon from "@/assets/icons/express-js.png";
 import prismaIcon from "@/assets/icons/prisma.png";
-import mysqlIcon from "@/assets/icons/mysql.png";
+import postgresql from "@/assets/icons/postgresql.svg";
 import postmanIcon from "@/assets/icons/postman.svg";
 import { cn } from "@/lib/utils";
 
@@ -77,8 +77,8 @@ export default function skills() {
           invert: true,
         },
         {
-          name: "MySQL",
-          icon: mysqlIcon,
+          name: "PostgreSQL",
+          icon: postgresql,
           invert: false,
         },
       ],
@@ -96,11 +96,11 @@ export default function skills() {
           icon: javascriptIcon,
           invert: false,
         },
-        {
-          name: "Java",
-          icon: javaIcon,
-          invert: false,
-        },
+        // {
+        //   name: "Java",
+        //   icon: javaIcon,
+        //   invert: false,
+        // },
       ],
     },
     {
